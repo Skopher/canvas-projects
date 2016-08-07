@@ -18,7 +18,10 @@ green (#8CA93E) nav w/ white text
     font: Arial;
     font: inherit;
 }
-
+html
+{
+	background-image: url("../img/cork-wallet.png");
+}
 /***************************
           Canvas
 ****************************/
@@ -49,7 +52,7 @@ a:hover, a:active
 /* Logo */
 #logo 
 {
-	font-size: 15vh;
+	font-size: 8vh;
 	color: black;
 	padding: 5vh 0vw 2vh 1vw;
 	margin-left:0vw;
@@ -59,11 +62,11 @@ a:hover, a:active
 /* Navigation Bar */
 #nav
 {
-	font-size: 7vh;
+	font-size: 3vh;
 	background-color: #8CA93E;
 	color: white;
-	padding-top: 4vh;
-	padding-bottom: 4vh;
+	padding-top: 1vh;
+	padding-bottom: 1vh;
 }
 #nav a:first-child
 {

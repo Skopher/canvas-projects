@@ -1,0 +1,9 @@
+*
+{
+	box-sizing: border-box; /* sizes boxes to the border */
+}
+
+#red
+{
+	color:red;
+}

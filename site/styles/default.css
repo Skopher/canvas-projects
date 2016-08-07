@@ -6,7 +6,7 @@ green (#8CA93E) nav w/ white text
 */
 
 /***************************
-           Links
+        Everything
 ****************************/
 *
 {
@@ -18,6 +18,17 @@ green (#8CA93E) nav w/ white text
     font: Arial;
     font: inherit;
 }
+
+/***************************
+          Canvas
+****************************/
+canvas 
+{
+	border: 1px solid black;
+}
+/***************************
+           Links
+****************************/
 a
 {
 	text-decoration: none;
@@ -74,7 +85,11 @@ a:hover, a:active
 {
 	background-color: white;
 }
-
+#content *
+{
+	margin-left: 2vw;
+	margin-top: 2vh;
+}
 /* Footer */
 #footer
 {

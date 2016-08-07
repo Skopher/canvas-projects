@@ -1,0 +1,87 @@
+/* 
+Theme Info: 
+White background
+black text
+green (#8CA93E) nav w/ white text
+*/
+
+/***************************
+           Links
+****************************/
+*
+{
+	box-sizing: border-box; /* sizes boxes to the border */
+	margin: 0;
+    padding: 0;
+    max-height: 100vh;
+    max-width: 100vw;
+    font: Arial;
+    font: inherit;
+}
+a
+{
+	text-decoration: none;
+}
+a:link, a:visited
+{
+	color:inherit;
+}
+a:hover, a:active
+{
+	color:orange;
+}
+
+/***************************
+        Site blocks 
+****************************/
+
+/* Logo */
+#logo 
+{
+	font-size: 15vh;
+	color: black;
+	padding: 5vh 0vw 2vh 1vw;
+	margin-left:0vw;
+	/*max-height: 10vh;*/
+}
+
+/* Navigation Bar */
+#nav
+{
+	font-size: 7vh;
+	background-color: #8CA93E;
+	color: white;
+	padding-top: 4vh;
+	padding-bottom: 4vh;
+}
+#nav a:first-child
+{
+	margin-left: 1vw;
+}
+#nav a
+{
+	height: inherit;
+	padding: 2vh 1vw 2vh 1vw;
+}
+#nav a:hover
+{
+	background-color: #556B2F;
+	color: inherit;
+}
+
+/* Content */
+#content
+{
+	background-color: white;
+}
+
+/* Footer */
+#footer
+{
+	background-color: white;
+}
+
+/***************************
+        Ugly Hacks
+****************************/
+/* Nothing here yet...(fingers crossed) */

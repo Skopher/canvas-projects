@@ -74,7 +74,6 @@ a:hover, a:active
 }
 #nav a
 {
-	height: inherit;
 	padding: 2vh 1vw 2vh 1vw;
 }
 #nav a:hover

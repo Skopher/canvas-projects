@@ -1,2 +1,2 @@
-# canvas-projects
-Repo to store HTML5 canvas projects
+# projects-site
+Repo to store projects for my site
